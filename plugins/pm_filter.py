@@ -259,13 +259,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('🎟 Request Movies 🎟', url='https://t.me/MOVIECLUB_CHAT'),
+                    InlineKeyboardButton('🎟 Request Movies 🎟', url='https://t.me/request_seriesgroup),
                     InlineKeyboardButton('🥶 Source Code 🥶', url='https://t.me/AdhavaaBiriyaniKittiyalo')
                 ]
                 ]
             await query.message.edit(text="""🙋🏻‍♂️ Hellooo <code> {} 😎</code>
 
-<b>✴️ Owner :</b> <a href='https://t.me/NickxFury_bot'>Nick Fury</a>
+<b>✴️ Owner :</b> <a href='https://t.me/hiten_op>Hiten</a>
 
 <b>✴️ Language :</b> <code>Python3</code>
 
@@ -273,7 +273,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
 <b>✴️ Source Code :</b> <a href='https://t.me/AdhavaaBiriyaniKittiyalo'>Click here</a>
 
-<b>✴️ Request Movies :</b> <a href='https://t.me/MOVIECLUB_CHAT'>Movie Club</a>
+<b>✴️ Request Movies :</b> <a href='https://t.me/request_moviesorseries>Requestprime</a>
 
 </b>📜 Quote :</b> <code>ആരും പേടിക്കണ്ട എല്ലാവർക്കും കിട്ടും™️</code>""".format(query.from_user.mention)),
 
@@ -290,8 +290,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     caption = f"<code>{files.file_name}</code>\n\n<i>© Powered by @MovieClubOfficiall</i>"
                 buttons = [
                     [
-                        InlineKeyboardButton('🎟 Request', url='https://t.me/MOVIECLUB_CHAT'),
-                        InlineKeyboardButton('Channel 🍿', url='https://t.me/MovieClubOfficiall')
+                        InlineKeyboardButton('🎟 Request', url='https://t.me/request_moviesorseries'),
+                        InlineKeyboardButton('support', url='https://t.me/request_moviesorseries')
                     ]
                     ]
                 
