@@ -54,7 +54,7 @@ async def filter(client, message):
         if files:
             for file in files:
                 file_id = file.file_id
-                filename = f"🎬 [{get_size(file.file_size)}]  {file.file_name}"
+                filename = f"📒 [{get_size(file.file_size)}] 🎬 {file.file_name}"
                 btn.append(
                     [InlineKeyboardButton(text=f"{filename}",callback_data=f"NickxFury#{file_id}")]
                     )
@@ -113,7 +113,7 @@ async def group(client, message):
         if files:
             for file in files:
                 file_id = file.file_id
-                filename = f"📁 [{get_size(file.file_size)}] 📒 {file.file_name}"
+                filename = f"📒 [{get_size(file.file_size)}] 🎬 {file.file_name}"
                 btn.append(
                     [InlineKeyboardButton(text=f"{filename}", url=f"https://telegram.dog/{nyva}?start=NickxFury_-_-_-_{file_id}")]
                 )
@@ -136,7 +136,7 @@ async def group(client, message):
             )
             await message.reply_photo(
                 photo="https://telegra.ph/file/515db16404c6a688609cf.jpg",
-                caption=f"<b><i><a href='https://t.me/MOVIECLUB_CHAT'>⭕️ Click Here To Join Movie Club For Your Favorite Movies/Series ⭕️</a>\n\nHere is What I Found In My Database For Your Query <code>{search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </code></i></b>",
+                caption=f"<b><i><a href='https://t.me/request_moviesorseries'>⭕️ Click Here To Join requestprime For Your Favorite Movies/Series ⭕️</a>\n\nHere is What I Found In My Database For Your Query <code>{search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </code></i></b>",
                 reply_markup=InlineKeyboardMarkup(buttons)
             )
             return
@@ -259,7 +259,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('🎟 Request Movies 🎟', url='https://t.me/request_seriesgroup),
+                    InlineKeyboardButton('🎟 Request Movies 🎟', url='https://t.me/request_seriesgroup'),
                     InlineKeyboardButton('🥶 Source Code 🥶', url='https://t.me/AdhavaaBiriyaniKittiyalo')
                 ]
                 ]
