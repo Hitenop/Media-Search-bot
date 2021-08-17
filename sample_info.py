@@ -24,7 +24,7 @@ COLLECTION_NAME = 'channel_files'  # If you are using the same database, then us
 # Messages
 START_MSG = """
 Hello !!,
-• This is a Telegram Inline Movie/Series Search Bot Maintained by <a href='https://t.me/NickxFury_bot'>Nick Fury</a> 👍
+• This is a Telegram Inline Movie/Series Search Bot Maintained by <a href='https://t.me/hiten_op'>Hiten</a> 👍
 • Here you can search files in inline mode, Just press "Search Here" button and start searching Or Just Send Me The Correct Name Of The Movie/Series.
 """
 
