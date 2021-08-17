@@ -93,11 +93,11 @@ async def start(bot, cmd):
                         InlineKeyboardButton("Request Movies 🎟", url="https://t.me/MOVIECLUB_CHAT")
                     ],
                     [
-                        InlineKeyboardButton("👩‍💻 Owner", url="http://t.me/NickxFury_bot"),
+                        InlineKeyboardButton("👩‍💻 Owner", url="http://t.me/hiten_op"),
                         InlineKeyboardButton("About 😎", callback_data="about")
                     ],
                     [
-                        InlineKeyboardButton("📝 FeedBack 📝", url="http://t.me/MC_HelperBot")
+                        InlineKeyboardButton("📝 FeedBack 📝", url="http://t.me/request_moviesorseries")
                     ]
                 ]
             )
@@ -186,13 +186,13 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('🎟 Request Movies 🎟', url='https://t.me/MOVIECLUB_CHAT'),
+            InlineKeyboardButton('🎟 Request Movies 🎟', url='https://t.me/request_moviesorseries),
             InlineKeyboardButton('🥶 Source Code 🥶', url='https://t.me/AdhavaaBiriyaniKittiyalo')
         ]
         ]
     await query.message.edit(text="""🙋🏻‍♂️ Hellooo <code> {} 😎</code>
 
-<b>✴️ Owner :</b> <a href='https://t.me/NickxFury_bot'>Nick Fury</a>
+<b>✴️ Owner :</b> <a href='https://t.me/hiten_op>Hiten</a>
 
 <b>✴️ Language :</b> <code>Python3</code>
 
@@ -200,6 +200,6 @@ async def bot_info(bot, message):
 
 <b>✴️ Source Code :</b> <a href='https://t.me/AdhavaaBiriyaniKittiyalo'>Click here</a>
 
-<b>✴️ Request Movies :</b> <a href='https://t.me/MOVIECLUB_CHAT'>Movie Club</a>
+<b>✴️ Request Movies :</b> <a href='https://t.me/request_moviesorseries>Request Prime</a>
 
 </b>📜 Quote :</b> <code>ആരും പേടിക്കണ്ട എല്ലാവർക്കും കിട്ടും™️</code>""".format(query.from_user.mention))
