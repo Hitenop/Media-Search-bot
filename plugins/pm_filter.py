@@ -96,7 +96,7 @@ async def filter(client, message):
 
         await message.reply_photo(
                 photo="https://telegra.ph/file/515db16404c6a688609cf.jpg",
-                caption=f"<b><i><a href='https://t.me/MOVIECLUB_CHAT'>⭕️ Click Here To Join Movie Club For Your Favorite Movies/Series ⭕️</a>\n\nHere is What I Found In My Database For Your Query <code>{search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </code></i></b>",
+                caption=f"<b><i><a href='https://t.me/request_moviesorseries'>⭕️ Click Here To Join Movie Club For Your Favorite Movies/Series ⭕️</a>\n\nHere is What I Found In My Database For Your Query <code>{search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </code></i></b>",
                 reply_markup=InlineKeyboardMarkup(buttons)
             )    
 
@@ -153,7 +153,7 @@ async def group(client, message):
 
         await message.reply_photo(
                 photo="https://telegra.ph/file/515db16404c6a688609cf.jpg",
-                caption=f"<b><i><a href='https://t.me/MOVIECLUB_CHAT'>⭕️ Click Here To Join Movie Club For Your Favorite Movies/Series ⭕️</a>\n\nHere is What I Found In My Database For Your Query <code>{search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </code></i></b>",
+                caption=f"<b><i><a href='https://t.me/request_moviesorseries'>⭕️ Click Here To Join Movie Club For Your Favorite Movies/Series ⭕️</a>\n\nHere is What I Found In My Database For Your Query <code>{search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </code></i></b>",
                 reply_markup=InlineKeyboardMarkup(buttons)
             )
 
@@ -316,8 +316,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     caption = f"<code>{files.file_name}</code>\n\n<i>© Powered by @MovieClubOfficiall</i>"
                 buttons = [
                     [
-                        InlineKeyboardButton('🎟 Request', url='https://t.me/MOVIECLUB_CHAT'),
-                        InlineKeyboardButton('Channel 🍿', url='https://t.me/MovieClubOfficiall')
+                        InlineKeyboardButton('🎟 Request', url='https://t.me/request_moviesorseries'),
+                        InlineKeyboardButton('Channel 🍿', url='https://t.me/request_moviesorseries')
                     ]
                     ]
                 
