@@ -311,9 +311,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             for files in filedetails:
                 file_caption = files.file_name
                 size=files.file_size
-                caption =f'<code>{files.file_name}</code>\n\n<i>© Powered by @MovieClubOfficiall</i>'
+                caption =f'<code>{files.file_name}</code>\n\n<i>© Powered by @request_moviesorseries</i>'
                 if caption is None:
-                    caption = f"<code>{files.file_name}</code>\n\n<i>© Powered by @MovieClubOfficiall</i>"
+                    caption = f"<code>{files.file_name}</code>\n\n<i>© Powered by @request_moviesorseries</i>"
                 buttons = [
                     [
                         InlineKeyboardButton('🎟 Request', url='https://t.me/request_moviesorseries'),
